@@ -1,7 +1,7 @@
-package DansDilemmaTests;
+package AssignmentForFun.src.test.java.DansDilemmaTests;
 
-import DansDilemma.DansDilemma;
-import Strings.BasicStrings;
+import AssignmentForFun.src.main.java.DansDilemma.DansDilemma;
+//import AssignmentForFun.src.main.java.Strings.BasicStrings;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

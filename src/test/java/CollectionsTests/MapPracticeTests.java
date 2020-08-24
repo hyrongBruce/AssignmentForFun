@@ -1,6 +1,6 @@
-package CollectionsTests;
+package AssignmentForFun.src.test.java.CollectionsTests;
 
-import Collections.MapPractice;
+import AssignmentForFun.src.main.java.Collections.MapPractice;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

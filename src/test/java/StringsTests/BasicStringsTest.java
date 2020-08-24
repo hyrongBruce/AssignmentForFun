@@ -1,6 +1,6 @@
-package StringsTests;
+package AssignmentForFun.src.test.java.StringsTests;
 
-import Strings.BasicStrings;
+import  AssignmentForFun.src.main.java.Strings.BasicStrings;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
