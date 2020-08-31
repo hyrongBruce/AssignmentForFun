@@ -23,8 +23,9 @@ public class DansDilemma {
     	hset.add(product);
     	hset.add(sub1);
     	hset.add(sub2);
-    	hset.add(quotients1);
-    	hset.add(quotients2);
+    	if(input1!=0) {hset.add(quotients1);}
+    	if(input2!=0) hset.add(quotients2);
+    	
     	
         return hset.size();
     }
@@ -94,13 +95,9 @@ public class DansDilemma {
     
 //    public static void main(String[] args) {
 //		DansDilemma dd = new DansDilemma();
-//		Double[] inputs = {4d, 6d, 8d, 12d};
-//		int j = dd.dilemmaOfN(inputs);
 //		
-//		int x = dd.dilemmaOfThree(4.5, 90d, 3d);
-//		int y = dd.dilemmaOfThree(0d, 0d, 0d);
-//		System.out.println(x);
-//		System.out.println(y);
-//		System.out.println(j);
+//		
+//		System.out.println(dd.dilemmaOfTwo(0d, 0d));
+//		
 //	}
 }

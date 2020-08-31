@@ -51,22 +51,25 @@ public class BasicStrings {
     	int pointerStr2 = 0;
     	for(int i=0;i<string1.length();i++) {
     		res = res + string1.charAt(i);
-    		if(pointerStr2<string2.length()-1) {
+    		if(pointerStr2<=string2.length()-1) {
     			res = res + string2.charAt(pointerStr2);
     			pointerStr2++;
-    		}else if(pointerStr2==string2.length()-1) {
-    			res = res + string2.charAt(pointerStr2);
+    		}else if(pointerStr2>string2.length()-1) {
     			continue;
     		}
     		
     	}
-    	System.out.println("I didn't quite get the OneAtATimeTest3");
+//    	System.out.println("I didn't quite get the OneAtATimeTest3");
         return res;
     }
     
     // Own test
 //    public static void main(String[] args) {
 //    	BasicStrings bs = new BasicStrings();
-//		bs.reverseCase("lEt mE hEaR yOu");
+//    	String string1 = "Chr 9.0";
+//        String string2 = "oot";
+//        String expected = "Cohort 9.0";
+//        
+//        System.out.print(bs.oneAtATime(string1, string2));
 //	}
 }
